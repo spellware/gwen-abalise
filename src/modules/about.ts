@@ -51,11 +51,11 @@ export const about = async(
     const supportButton = new ButtonBuilder().
       setLabel("Need help?").
       setStyle(ButtonStyle.Link).
-      setURL("https://chat.nhcarrigan.com");
+      setURL("https://chat.spellware.dev");
     const sourceButton = new ButtonBuilder().
       setLabel("Source code").
       setStyle(ButtonStyle.Link).
-      setURL("https://git.nhcarrigan.com/nhcarrigan/gwen-abalise");
+      setURL("https://git.spellware.dev/nhcarrigan/gwen-abalise");
     const subscribeButton = new ButtonBuilder().
       setStyle(ButtonStyle.Premium).
       setSKUId("1343419585117945936");

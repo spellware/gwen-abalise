@@ -38,7 +38,7 @@ export const isSubscribed = async(
       setSKUId("1343419585117945936");
     const helpButton = new ButtonBuilder().
       setStyle(ButtonStyle.Link).
-      setURL("https://chat.nhcarrigan.com").
+      setURL("https://chat.spellware.dev").
       setLabel("Need help?");
     const row = new ActionRowBuilder<ButtonBuilder>().addComponents(
       subscribeButton,

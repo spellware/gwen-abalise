@@ -23,7 +23,7 @@ export const replyToError = async(
   const button = new ButtonBuilder().
     setLabel("Need help?").
     setStyle(ButtonStyle.Link).
-    setURL("https://chat.nhcarrigan.com");
+    setURL("https://chat.spellware.dev");
   const row = new ActionRowBuilder<ButtonBuilder>().addComponents(button);
   if (interaction.deferred || interaction.replied) {
     await interaction.editReply({
